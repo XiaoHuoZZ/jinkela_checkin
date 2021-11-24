@@ -144,7 +144,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=airport-signin
+CMAKE_PROJECT_NAME:STATIC=airport-checkin
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=0.1.0
@@ -224,10 +224,10 @@ CMAKE_STRIP:FILEPATH=/bin/strip
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
-airport-signin_BINARY_DIR:STATIC=/opt/airport-signin/build
+airport-checkin_BINARY_DIR:STATIC=/opt/airport-signin/build
 
 //Value Computed by CMake
-airport-signin_SOURCE_DIR:STATIC=/opt/airport-signin
+airport-checkin_SOURCE_DIR:STATIC=/opt/airport-signin
 
 
 ########################

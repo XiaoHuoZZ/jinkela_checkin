@@ -1,7 +1,7 @@
 [
 {
   "directory": "/opt/airport-signin/build/src",
-  "command": "/bin/x86_64-linux-gnu-g++-9   -I/opt/airport-signin/src/../include  -fsanitize=undefined,address,leak -fno-omit-frame-pointer -g   -o CMakeFiles/airport-signin.dir/main.cpp.o -c /opt/airport-signin/src/main.cpp",
+  "command": "/bin/x86_64-linux-gnu-g++-9   -I/opt/airport-signin/src/../include  -fsanitize=undefined,address,leak -fno-omit-frame-pointer -g   -o CMakeFiles/airport-checkin.dir/main.cpp.o -c /opt/airport-signin/src/main.cpp",
   "file": "/opt/airport-signin/src/main.cpp"
 }
 ]

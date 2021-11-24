@@ -4,11 +4,11 @@ include_directories(../include)
 link_directories(../lib)
 
 # 指定生成目标
-add_executable(airport-signin main.cpp)
+add_executable(airport-checkin main.cpp)
 
 # 添加链接库
-target_link_libraries(airport-signin ssl)
-target_link_libraries(airport-signin crypto)
-target_link_libraries(airport-signin dl)
-target_link_libraries(airport-signin pthread)
+target_link_libraries(airport-checkin ssl)
+target_link_libraries(airport-checkin crypto)
+target_link_libraries(airport-checkin dl)
+target_link_libraries(airport-checkin pthread)
 

@@ -71,7 +71,7 @@ clean: src/clean
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
-src/all: src/CMakeFiles/airport-signin.dir/all
+src/all: src/CMakeFiles/airport-checkin.dir/all
 
 .PHONY : src/all
 
@@ -81,36 +81,36 @@ src/preinstall:
 .PHONY : src/preinstall
 
 # Recursive "clean" directory target.
-src/clean: src/CMakeFiles/airport-signin.dir/clean
+src/clean: src/CMakeFiles/airport-checkin.dir/clean
 
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target src/CMakeFiles/airport-signin.dir
+# Target rules for target src/CMakeFiles/airport-checkin.dir
 
 # All Build rule for target.
-src/CMakeFiles/airport-signin.dir/all:
-	$(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/depend
-	$(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/opt/airport-signin/build/CMakeFiles --progress-num=1,2 "Built target airport-signin"
-.PHONY : src/CMakeFiles/airport-signin.dir/all
+src/CMakeFiles/airport-checkin.dir/all:
+	$(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/depend
+	$(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/opt/airport-signin/build/CMakeFiles --progress-num=1,2 "Built target airport-checkin"
+.PHONY : src/CMakeFiles/airport-checkin.dir/all
 
 # Build rule for subdir invocation for target.
-src/CMakeFiles/airport-signin.dir/rule: cmake_check_build_system
+src/CMakeFiles/airport-checkin.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /opt/airport-signin/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/airport-signin.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/airport-checkin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /opt/airport-signin/build/CMakeFiles 0
-.PHONY : src/CMakeFiles/airport-signin.dir/rule
+.PHONY : src/CMakeFiles/airport-checkin.dir/rule
 
 # Convenience name for target.
-airport-signin: src/CMakeFiles/airport-signin.dir/rule
+airport-checkin: src/CMakeFiles/airport-checkin.dir/rule
 
-.PHONY : airport-signin
+.PHONY : airport-checkin
 
 # clean rule for target.
-src/CMakeFiles/airport-signin.dir/clean:
-	$(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/clean
-.PHONY : src/CMakeFiles/airport-signin.dir/clean
+src/CMakeFiles/airport-checkin.dir/clean:
+	$(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/clean
+.PHONY : src/CMakeFiles/airport-checkin.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

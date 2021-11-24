@@ -111,19 +111,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/CMakeFiles/airport-signin.dir/rule:
-	cd /opt/airport-signin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/airport-signin.dir/rule
-.PHONY : src/CMakeFiles/airport-signin.dir/rule
+src/CMakeFiles/airport-checkin.dir/rule:
+	cd /opt/airport-signin/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/airport-checkin.dir/rule
+.PHONY : src/CMakeFiles/airport-checkin.dir/rule
 
 # Convenience name for target.
-airport-signin: src/CMakeFiles/airport-signin.dir/rule
+airport-checkin: src/CMakeFiles/airport-checkin.dir/rule
 
-.PHONY : airport-signin
+.PHONY : airport-checkin
 
 # fast build rule for target.
-airport-signin/fast:
-	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/build
-.PHONY : airport-signin/fast
+airport-checkin/fast:
+	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/build
+.PHONY : airport-checkin/fast
 
 main.o: main.cpp.o
 
@@ -131,7 +131,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/main.cpp.o
+	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -140,7 +140,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/main.cpp.i
+	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -149,7 +149,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/main.cpp.s
+	cd /opt/airport-signin/build && $(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... airport-signin"
+	@echo "... airport-checkin"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

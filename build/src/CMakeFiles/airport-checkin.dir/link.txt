@@ -1,0 +1,1 @@
+/bin/x86_64-linux-gnu-g++-9  -fsanitize=undefined,address,leak -fno-omit-frame-pointer -g  -rdynamic CMakeFiles/airport-checkin.dir/main.cpp.o  -o airport-checkin   -L/opt/airport-signin/src/../lib  -Wl,-rpath,/opt/airport-signin/src/../lib -lssl -lcrypto -ldl -lpthread 

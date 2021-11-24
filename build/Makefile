@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named airport-signin
+# Target rules for targets named airport-checkin
 
 # Build rule for target.
-airport-signin: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 airport-signin
-.PHONY : airport-signin
+airport-checkin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 airport-checkin
+.PHONY : airport-checkin
 
 # fast build rule for target.
-airport-signin/fast:
-	$(MAKE) -f src/CMakeFiles/airport-signin.dir/build.make src/CMakeFiles/airport-signin.dir/build
-.PHONY : airport-signin/fast
+airport-checkin/fast:
+	$(MAKE) -f src/CMakeFiles/airport-checkin.dir/build.make src/CMakeFiles/airport-checkin.dir/build
+.PHONY : airport-checkin/fast
 
 # Help Target
 help:
@@ -131,7 +131,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... airport-signin"
+	@echo "... airport-checkin"
 .PHONY : help
 
 
