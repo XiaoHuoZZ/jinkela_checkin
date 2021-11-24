@@ -1,0 +1,5 @@
+/opt/airport-signin/build/CMakeFiles/rebuild_cache.dir
+/opt/airport-signin/build/CMakeFiles/edit_cache.dir
+/opt/airport-signin/build/src/CMakeFiles/rebuild_cache.dir
+/opt/airport-signin/build/src/CMakeFiles/edit_cache.dir
+/opt/airport-signin/build/src/CMakeFiles/airport-signin.dir
