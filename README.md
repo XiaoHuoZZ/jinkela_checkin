@@ -9,3 +9,10 @@ cmake ..
 ```shell
 ./airport_checkin <your emial> <your passwd>
 ```
+
+## 使用Action
+```shell
+设置
+EMAIL
+PASSWD
+```
