@@ -1,5 +1,4 @@
-# jinkela_checkin
-金坷垃机场每日签到
+# 金坷垃机场每日签到
 
 ## 编译
 ```shell
