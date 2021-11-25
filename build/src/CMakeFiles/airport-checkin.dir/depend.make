@@ -62,5 +62,25 @@ src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/openssl/x509_vfy.h
 src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/openssl/x509err.h
 src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/openssl/x509v3.h
 src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/openssl/x509v3err.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/allocators.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/document.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/encodedstream.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/encodings.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/error/error.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/biginteger.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/diyfp.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/ieee754.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/meta.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/pow10.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/stack.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/strfunc.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/strtod.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/internal/swap.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/memorystream.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/msinttypes/inttypes.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/msinttypes/stdint.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/rapidjson.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/reader.h
+src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../include/rapidjson/stream.h
 src/CMakeFiles/airport-checkin.dir/main.cpp.o: ../src/main.cpp
 
