@@ -37,7 +37,7 @@ int main(int, char *args[])
         return 0;
     }
 
-    httplib::Client cli("https://jinkela.cyou");
+    httplib::Client cli("https://jinkela.lol");
     cli.enable_server_certificate_verification(false);
 
     //登录获取cookie
